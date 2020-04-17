@@ -181,6 +181,8 @@ kubectl logs -l app=kuard
 ```
 kubectl logs POD_NAME --previous
 ```
+- Get container running in POD
+kubectl describe pod/pod_name -n default
 
 - Watch logs in real time.
 ```
